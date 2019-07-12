@@ -8,13 +8,14 @@
   </head>
   <body>
    <div class="form">
-    <form action="" method="get" size="35">
-      Birthday: <input type="date" name="Birthday"><br>
-      <br>Gender: <input type="radio" name="gender" value="male" checked>Male
-              <input type="radio" name="gender" value="female" checked> Female<br>
-              <br><input type="submit" value="submit">
+    <form action="" method="post" size="35" onsubmit="returnValidateForm()">
+      Birthday: <input type="date" name="Birthday" id="input_id"><br>
+        <br>Gender: <input type="radio" name="gender" value="male" id="display">Male
+              <input type="radio" name="gender" value="female" checked id="display1"> Female<br>
+              <br><input type="submit" value="submit" onclick="theInput()";>
      </form>
     </div>
+
     <script src=js/scripts.js >
 
     </script>
