@@ -8,12 +8,12 @@
   </head>
   <body>
    <div class="form">
-    <form action="" method="post" size="6" onsubmit="returnValidateForm()">
+    <form  name="userInput" action="" method="get" size="6" onsubmit="returnValidateForm()">
 
       <div class="tab">Please enter your Birthday:
-        <p><input placeholder="Month..." oninput="this.className = ''" id="month"></p>
-        <p><input placeholder="Date..." oninput="this.className = ''" id="date"></p>
-        <p><input placeholder="Year..." oninput="this.className = ''" id ="year"></p>
+        <p><input placeholder="Month..." oninput="this.className = ''" id="mth"></p>
+        <p><input placeholder="Date..." oninput="this.className = ''" id="dt"></p>
+        <p><input placeholder="Year..." oninput="this.className = ''" id ="yr"></p>
       </div>
 
       <div class="tab">Please choose your Gender:
@@ -21,7 +21,7 @@
         <input type="radio" name="gender" value="female" id="woman">Female<br>
       </div>
 
-     <br><input type="submit" value="submit" onclick="theInput();"/>
+      <button type="submit" value="submit" onclick="theInput();"/>Submit</button>
      </form>
     </div>
 

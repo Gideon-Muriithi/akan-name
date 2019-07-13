@@ -1,20 +1,20 @@
 function theInput(){
-     var birthday = document.getElementById("input_id").value;
-     //var gender = document.getElementById("display").value;
-     //var gender1 = document.getElementById("display1").value;
-     var formcontent = document.getElementById("bdgender").value;
-    // var foo =
-
-     //alert(birthday);
-     form.innerHTML = " ";
-}
-var date = birthday.toString();
-//var DD = date.split("/");
-alert(date);
-theInput();
-/*theInput();
-var YY = ;
-var CC = (YY/100).toFixed(2);
-var MM = ;
-var DD = ;
-var dayoftheweek =  ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;*/
+     var MM = parseInt(document.getElementById("mth").value);
+     var DD = parseInt(document.getElementById("dt").value);
+     var yy = document.getElementById("yr").value;
+     var gender = document.getElementById("man").value;
+     var gender1 = document.getElementById("woman").value;
+     //alert(MM);
+     //alert(DD);
+    // alert(YY);
+    var sliceyy = yy.slice(0,2);
+    //alert(sliceyy);
+    YY = parseInt(sliceyy);
+    var forcc = parseInt(yy); //Change year from a string type to an interger.
+    var cc =forcc/100; //Create a variable for easy truncation for in a century.
+    CC = Math.trunc(cc);
+    //alert(CC);
+   var dayoftheweek =  (((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+   alert(dayoftheweek);
+   theInput();
+ }
