@@ -2,16 +2,15 @@ function theInput(){
      var birthday = document.getElementById("input_id").value;
      //var gender = document.getElementById("display").value;
      //var gender1 = document.getElementById("display1").value;
-     var foo = birthday.toString();
-     var arr = foo.split("/");
-     var DD = alert(arr[2]);
+     var formcontent = document.getElementById("bdgender").value;
+    // var foo =
 
-
-    //alert(gender)2
-
-  }
-
-
+     //alert(birthday);
+     form.innerHTML = " ";
+}
+var date = birthday.toString();
+//var DD = date.split("/");
+alert(date);
 theInput();
 /*theInput();
 var YY = ;
