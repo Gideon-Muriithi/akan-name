@@ -21,17 +21,18 @@ function theInput(){
     CC = Math.trunc(cc);
     //alert(CC);
    var dayoftheweek =  Math.trunc((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
-   alert(dayoftheweek);
+   //alert(dayoftheweek);
    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
    //alert(maleNames);
-   if(dayoftheweek == 0 && checkedValue == true){
+   if(dayoftheweek == 0 && checkedValue == "Male"){
      alert("Your Akan Name is " + maleNames[0]);
-   else{
-     alert("I am working!");
    }
+   //else{
+    // alert("I am working!");
+   //}
 
-   else if (dayoftheweek == 0 && checkedValue == true) {
+   else if (dayoftheweek == 0 && checkedValue == "Female") {
     alert("Your Akan Name is " + femaleNames[0]);
    }
    else if (dayoftheweek == 1 && checkedValue == true) {
@@ -74,6 +75,5 @@ function theInput(){
      alert("You seems to be born out of days week! Please confirm you entered the correct
      date details.")
    }
-
    theInput();
  }
