@@ -26,17 +26,17 @@ function theInput(){
    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
    //alert(maleNames);
    if(dayoftheweek == 0 && checkedValue == true){
-     alert("Your Akan Name is ");
-   //}else{
-     //alert("I am working!");
-   //}
+     alert("Your Akan Name is " + maleNames[0]);
+   else{
+     alert("I am working!");
+   }
 
-  else if (dayoftheweek == 0 && checkedValue == true) {
-      alert("Your Akan Name is " + femaleNames[0]);
-   //}
-   //else if (dayoftheweek == 1 && checkedValue == true) {
-     //alert("Your Akan Name is " + maleNames[1]);
-  /* }
+   else if (dayoftheweek == 0 && checkedValue == true) {
+    alert("Your Akan Name is " + femaleNames[0]);
+   }
+   else if (dayoftheweek == 1 && checkedValue == true) {
+     alert("Your Akan Name is " + maleNames[1]);
+   }
    else if (dayoftheweek == 1 && checkedValue == true) {
      alert("Your Akan Name is " + femaleNames[1]);
    }
@@ -73,7 +73,7 @@ function theInput(){
    else{
      alert("You seems to be born out of days week! Please confirm you entered the correct
      date details.")
-   }*/
+   }
 
    theInput();
  }
