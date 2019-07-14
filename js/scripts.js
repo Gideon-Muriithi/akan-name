@@ -1,5 +1,5 @@
 function theInput(){
-     /*var MM = parseInt(document.getElementById("mth").value);
+     var MM = parseInt(document.getElementById("mth").value);
      var DD = parseInt(document.getElementById("dt").value);
      var yy = document.getElementById("yr").value;
 
@@ -24,12 +24,12 @@ function theInput(){
    //alert(dayoftheweek);
    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-   alert(maleNames[0]);
-   /*if(dayoftheweek == 0 && checkedValue == true){
-     alert("Your Akan Name is " + maleNames[0]);
+   //alert(maleNames);
+   if(dayoftheweek == 0 && checkedValue == true){
+     alert("Your Akan Name is ");
    }else{
      alert("I am working!");
-   }*/
+   }
 
   //else if (dayoftheweek == 0 && checkedValue == true) {
       //alert("Your Akan Name is " + femaleNames[0]);
