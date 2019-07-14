@@ -4,3 +4,19 @@ div.form{
   margin-left: 10px;
   margin-right: 10px;
 }
+.jumbotron{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body{
+  font-family: sans-serif;
+  font-size: 17px;
+  background-color: #DAAD86;
+}
+h3{
+  text-align: center;
+}
+.form{
+background-color: #6B5B95;
+font-size: 19px;
+}

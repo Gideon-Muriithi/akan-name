@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
+ <div class="container-full-bg">
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <title>Akan Names</title>
   </head>
   <body>
-   <h3>About this Application</h3>
+   <h3 class="jumbotron">About this Application</h3>
    <p>This is a web application that takes a user's birthday and calculates the day of the
      week they were born and then depending on their gender outputs their Akan Name.
      Akan names are derived from Ghanian culture. Frequently in Ghana, children are given
@@ -16,7 +16,7 @@
    and then click on the submit button.</p>
    <div class="form">
     <p id="show"></p>
-    <form  name="userInput" action="" method="get" size="6" onsubmit="returnValidateForm()">
+    <form  name="userInput" class="form" action="" method="get" size="6" onsubmit="returnValidateForm()">
 
       <div class="tab">Please enter your Birthday:
         <p><input placeholder="Month..." oninput="this.className = ''" id="mth" minlength="1"
@@ -41,5 +41,6 @@
     <script src=js/scripts.js >
 
     </script>
+  </div>
   </body>
 </html>

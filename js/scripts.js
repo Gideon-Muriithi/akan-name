@@ -6,7 +6,7 @@ function theInput(){
    for (var i=0; i<document.userInput.gender.length; i++)  {
    if (document.userInput.gender[i].checked)  {
 
-   checkedValue = document.userInput.gender[i].value
+   checkedValue = document.userInput.gender[i].value;
 
 
      }
@@ -20,20 +20,20 @@ function theInput(){
     var cc =forcc/100; //Create a variable for easy truncation for in a century.
     CC = Math.trunc(cc);
     //alert(CC);
-   var dayoftheweek =  Math.trunc((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);*/
-   //alert(dayoftheweek);
+   var dayoftheweek =  Math.trunc((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
+   alert(dayoftheweek);
    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
    //alert(maleNames);
    if(dayoftheweek == 0 && checkedValue == true){
      alert("Your Akan Name is ");
-   }else{
-     alert("I am working!");
-   }
+   //}else{
+     //alert("I am working!");
+   //}
 
-  //else if (dayoftheweek == 0 && checkedValue == true) {
-      //alert("Your Akan Name is " + femaleNames[0]);
-   }
+  else if (dayoftheweek == 0 && checkedValue == true) {
+      alert("Your Akan Name is " + femaleNames[0]);
+   //}
    //else if (dayoftheweek == 1 && checkedValue == true) {
      //alert("Your Akan Name is " + maleNames[1]);
   /* }
