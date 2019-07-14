@@ -11,10 +11,9 @@ function theInput(){
 
      }
    }
-   //alert(checkedValue);
 
     var sliceyy = yy.slice(0,2);
-    //alert(sliceyy);
+
     YY = parseInt(sliceyy);
     var forcc = parseInt(yy); //Change year from a string type to an interger.
     var cc =forcc/100; //Create a variable for easy truncation for in a century.
