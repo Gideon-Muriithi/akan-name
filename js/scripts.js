@@ -29,51 +29,48 @@ function theInput(){
      alert("Your Akan Name is " + maleNames[0]);
    }
    //else{
-    // alert("I am working!");
+    //alert("I am working!");
    //}
 
    else if (dayoftheweek == 0 && checkedValue == "Female") {
     alert("Your Akan Name is " + femaleNames[0]);
    }
-   else if (dayoftheweek == 1 && checkedValue == true) {
+   else if (dayoftheweek == 1 && checkedValue == "Male") {
      alert("Your Akan Name is " + maleNames[1]);
    }
-   else if (dayoftheweek == 1 && checkedValue == true) {
+   else if (dayoftheweek == 1 && checkedValue == "Female") {
      alert("Your Akan Name is " + femaleNames[1]);
    }
-   else if (dayoftheweek == 2 && checkedValue == true) {
+   else if (dayoftheweek == 2 && checkedValue == "Male") {
      alert("Your Akan Name is " + maleNames[2]);
    }
-   else if (dayoftheweek == 2 && checkedValue == true) {
+   else if (dayoftheweek == 2 && checkedValue == "Female") {
      alert("Your Akan Name is " + femaleNames[2]);
    }
-   else if (dayoftheweek == 3 && checkedValue == true) {
+   else if (dayoftheweek == 3 && checkedValue == "Male") {
      alert("Your Akan Name is " + maleNames[3]);
    }
-   else if (dayoftheweek == 3 && checkedValue == true) {
+   else if (dayoftheweek == 3 && checkedValue == "Female") {
      alert("Your Akan Name is " + femaleNames[3]);
    }
-   else if (dayoftheweek == 4 && checkedValue == true) {
+   else if (dayoftheweek == 4 && checkedValue == "Male") {
      alert("Your Akan Name is " + maleNames[4]);
    }
-   else if (dayoftheweek == 4 && checkedValue == true) {
+   else if (dayoftheweek == 4 && checkedValue == "Female") {
      alert("Your Akan Name is " + femaleNames[4]);
    }
-   else if (dayoftheweek == 5 && checkedValue == true) {
+   else if (dayoftheweek == 5 && checkedValue == "Male") {
      alert("Your Akan Name is " + maleNames[5]);
    }
-   else if (dayoftheweek == 5 && checkedValue == true) {
+   else if (dayoftheweek == 5 && checkedValue == "Female") {
      alert("Your Akan Name is " + femaleNames[5]);
    }
-   else if (dayoftheweek == 6 && checkedValue == true) {
+   else if (dayoftheweek == 6 && checkedValue == "Male") {
      alert("Your Akan Name is " + maleNames[6]);
    }
-   else if (dayoftheweek == 6 && checkedValue == true) {
+   else if (dayoftheweek == 6 && checkedValue == "Female") {
      alert("Your Akan Name is " + femaleNames[6]);
    }
-   else{
-     alert("You seems to be born out of days week! Please confirm you entered the correct
-     date details.")
-   }
+
    theInput();
  }
