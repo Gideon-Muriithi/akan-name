@@ -18,20 +18,16 @@ function theInput(){
     var forcc = parseInt(yy); //Change year from a string type to an interger.
     var cc =forcc/100; //Create a variable for easy truncation for in a century.
     CC = Math.trunc(cc);
-    //alert(CC);
+  
    var dayoftheweek =  Math.trunc((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
-   //alert(dayoftheweek);
+
    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-   //alert(maleNames);
+
    if(dayoftheweek == 0 && checkedValue == "Male"){
      alert("Your Akan Name is " + maleNames[0]);
    }
-   //else{
-    //alert("I am working!");
-   //}
-
-   else if (dayoftheweek == 0 && checkedValue == "Female") {
+  else if (dayoftheweek == 0 && checkedValue == "Female") {
     alert("Your Akan Name is " + femaleNames[0]);
    }
    else if (dayoftheweek == 1 && checkedValue == "Male") {
