@@ -8,6 +8,7 @@
   </head>
   <body>
    <div class="form">
+    <p id="show"></p>
     <form  name="userInput" action="" method="get" size="6" onsubmit="returnValidateForm()">
 
       <div class="tab">Please enter your Birthday:
@@ -17,11 +18,11 @@
       </div>
 
       <div class="tab">Please choose your Gender:
-       <br><input type="radio" name="gender" value="male" id="man" checked>Male<br>
-        <input type="radio" name="gender" value="female" id="woman">Female<br>
+       <br><input type="radio" name="gender" value="Male" checked>Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
       </div>
 
-      <button type="submit" value="submit" onclick="theInput();"/>Submit</button>
+      <button type="submit" value="submit" onclick="theInput(); return false;"/>Submit Form</button>
      </form>
     </div>
 
