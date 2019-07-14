@@ -19,14 +19,19 @@
     <form  name="userInput" action="" method="get" size="6" onsubmit="returnValidateForm()">
 
       <div class="tab">Please enter your Birthday:
-        <p><input placeholder="Month..." oninput="this.className = ''" id="mth" min="1" max="12" ></p>
-        <p><input placeholder="Date..." oninput="this.className = ''" id="dt" min="1" max="31"></p>
-        <p><input placeholder="Year..." oninput="this.className = ''" id ="yr"></p>
+        <p><input placeholder="Month..." oninput="this.className = ''" id="mth" minlength="1"
+          maxlength="12" oninvalid="alert('You must fill out the form!');" required></p>
+        <p><input placeholder="Date..." oninput="this.className = ''" id="dt" minlength="1"
+          maxlength="31" oninvalid="alert('You must fill out the form!');" required></p>
+        <p><input placeholder="Year..." oninput="this.className = ''" id ="yr"
+          oninvalid="alert('You must fill out the form!');" required></p>
       </div>
 
       <div class="tab">Please choose your Gender:
-       <br><input type="radio" name="gender" value="Male" checked>Male<br>
-        <input type="radio" name="gender" value="Female">Female<br>
+       <br><input type="radio" name="gender" value="Male" checked
+       oninvalid="alert('You must select a gender!');" required>Male<br>
+        <input type="radio" name="gender" value="Female"
+        oninvalid="alert('You must select a gender!');" required>Female<br>
       </div>
 
       <button type="submit" value="submit" onclick="theInput(); return false;"/>Submit Form</button>
