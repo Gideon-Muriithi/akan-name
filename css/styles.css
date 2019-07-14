@@ -7,16 +7,20 @@ div.form{
 .jumbotron{
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #96ECA7;
 }
 body{
   font-family: sans-serif;
   font-size: 17px;
-  background-color: #DAAD86;
+  background-color: #C9D98B;
 }
 h3{
   text-align: center;
+  font-style: oblique;
+  font-weight: bold;
 }
 .form{
-background-color: #6B5B95;
+background-color: #F5FFE5;
 font-size: 19px;
+font-weight: bold;
 }
