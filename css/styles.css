@@ -1,8 +1,6 @@
 div.form{
-  display: block;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+display: block;
+text-align: center;
 }
 .jumbotron{
     padding-top: 10px;
