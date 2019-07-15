@@ -8,7 +8,16 @@ function theInput(){
 
    checkedValue = document.userInput.gender[i].value;
     }
+  }
+
+   if ((MM <= 0) || (MM > 12)){
+     alert("Ivalid value!");
    }
+
+   if ((DD <= 0)|| (DD > 31)){
+     alert("Ivalid value!");
+   }
+
    var sliceyy = yy.slice(0,2);
     YY = parseInt(sliceyy);
     var forcc = parseInt(yy); //Change year from a string type to an interger.
@@ -19,7 +28,30 @@ function theInput(){
 
    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
+   var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+   //var yy = weekDays[dayoftheweek];
+   //alert(yy);
+   if(dayoftheweek == 0){
+     alert("You were born on " + weekDays[0] + ". Click OK to see your name.");
+   }
+   if(dayoftheweek == 1){
+     alert("You were born on " + weekDays[1] + ". Click OK to see your name.");
+   }
+   if(dayoftheweek == 2){
+     alert("You were born on " + weekDays[2] + ". Click OK to see your name.");
+   }
+   if(dayoftheweek == 3){
+     alert("You were born on " + weekDays[3] + ". Click OK to see your name.");
+   }
+   if(dayoftheweek == 4){
+     alert("You were born on " + weekDays[4] + ". Click OK to see your name.");
+   }
+   if(dayoftheweek == 5){
+     alert("You were born on " + weekDays[5] + ". Click OK to see your name.");
+   }
+   if(dayoftheweek == 6){
+     alert("You were born on " + weekDays[6] + ". Click OK to see your name.");
+   }
    if(dayoftheweek == 0 && checkedValue == "Male"){
      alert("Your Akan Name is " + maleNames[0]);
    }
@@ -63,5 +95,6 @@ function theInput(){
      alert("Your Akan Name is " + femaleNames[6]);
    }
 
- theInput();
+
  }
+theInput();
