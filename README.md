@@ -19,8 +19,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-MIT License
-
 Copyright (c) [2019] [Gideon Gakenge Muriithi]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
