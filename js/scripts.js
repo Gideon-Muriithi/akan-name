@@ -50,7 +50,7 @@ function theInput(){
      alert("You were born on " + weekDays[5] + ". Click OK to see your name.");
    }
    if(dayoftheweek == 6){
-     alert("You were born on " + weekDays[6] + ". Click OK to see your name.");
+     alert("You were born on " + weekDays[] + ". Click OK to see your name.");
    }
    if(dayoftheweek == 0 && checkedValue == "Male"){
      alert("Your Akan Name is " + maleNames[0]);
