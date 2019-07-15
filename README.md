@@ -8,7 +8,7 @@ return to the user their Akan Name which is found in Ghananian culture.
 ## Installation
 
 No installation needed since this is a web-based application. You can access the application by click
-this live link; https://gideon-muriithi.github.io/akan-name/.
+this live link;  https://gideon-muriithi.github.io/akan-name/.
 ## Usage
 The application is basically used to determine nicknames of users.
 
